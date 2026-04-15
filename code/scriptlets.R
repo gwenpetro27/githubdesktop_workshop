@@ -17,6 +17,10 @@ hello_world <- function() {
 # adapted from https://hbctraining.github.io/Intro-to-R/lessons/03_introR-functions-and-arguments.html#user-defined-functions
 # and https://www.r-bloggers.com/how-to-write-and-debug-an-r-function/
 
+square.it <- function(x) {
+    square <- x * x
+    return(square)
+}
 # main code
 
 hello_world()
